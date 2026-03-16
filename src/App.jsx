@@ -1,4 +1,3 @@
-// App.jsx
 import { useState } from "react";
 import "./App.css";
 
@@ -17,13 +16,16 @@ function App() {
   return (
     <div className="app">
       {/* Logo */}
-      <img src="/OER LOGO.png" alt="OER Logo" className="logo" />
+      <img src="OER LOGO.png" alt="OER Logo" className="logo" />
 
       {/* Team Name */}
       <h1 className="team-name">OER ESPORTS</h1>
 
       {/* Members Button */}
-      <button onClick={() => setShowMembers(!showMembers)} className="members-btn">
+      <button
+        onClick={() => setShowMembers(!showMembers)}
+        className="members-btn"
+      >
         Members
       </button>
 
